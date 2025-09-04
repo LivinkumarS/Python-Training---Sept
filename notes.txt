@@ -1,0 +1,44 @@
+Python:
+>> High level and interpreted Programming language. General purpose language.
+
+compilation:
+>> The entire code is converted into machine code (binary code) before execution.
+c, c++, java              
+
+interpretation:
+>> Code is converted line by line.
+Python
+
+Extension to create python file --> .py
+command to execute a python file in cli --> "python filename.py"
+
+to show something in output
+----------------------------
+print(val)
+
+to prompt data from user
+--------------------------
+input()  ---> always return a string
+
+variables 
+---------
+>> just a containers, used to store a piece of data.
+varName = value
+
+Comments
+-----------
+To increase readability.
+
+Single line comment ---> #
+Multiple line comment ---> ''' comment '''
+
+Basic sytax of Python
+---------------------
+>> Python is case-sensitive.(a not equal to A)
+>> Indentation matters (no {}. use space)
+
+
+int --> 1,2,3,4
+float--> 1.23,4.556
+string---> '' or ""
+boolean---> True or False
