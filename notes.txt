@@ -25,6 +25,13 @@ variables
 >> just a containers, used to store a piece of data.
 varName = value
 
+Naming rules:
+--------------
+>> must start with a letter or "_"
+>> can contain numerical, letters and "_"
+>> case sensitive. a=A
+>> cannot use keywords as variable name
+
 Comments
 -----------
 To increase readability.
@@ -37,8 +44,24 @@ Basic sytax of Python
 >> Python is case-sensitive.(a not equal to A)
 >> Indentation matters (no {}. use space)
 
+Datatypes of Python 
+-------------------
 
-int --> 1,2,3,4
-float--> 1.23,4.556
-string---> '' or ""
+type(obj)---> return datatype of an object. <class 'bool'>
+
+int --> whole numbers---> -1,-2,0,1,2,3,4
+float--> decimal numbers --> 1.23,4.556
+
+string---> sequence of chars --> '' or "" 
++ --> str1 + str2 (concatination)
+string-formatting
+-------------------
+f'' ---> f"  {var1}  {var2}...."
+
 boolean---> True or False
+
+Type casting
+-------------
+int() ---> anything into int
+str() ---> anything into str
+float() ---> anything into float
