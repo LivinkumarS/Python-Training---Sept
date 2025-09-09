@@ -65,3 +65,65 @@ Type casting
 int() ---> anything into int
 str() ---> anything into str
 float() ---> anything into float
+
+
+Operators
+-----------
+
+2 + 3 = 5  --> expression. + --> operator
+
+>> Operators are special symbols that perform operations on values.
+
+Arithmetice Operator 
+--------------------
+Addition  ---> + 
+Subtraction ---> -
+multiplication --> *
+division --> /
+floor division --> //
+modulus ---> % (reminder). 4%8 --> 8*0--> 4-0--> 4
+Exponential --> **. ex: 2**4
+
+BODMAS--> Brackets Order(Of) Div Mul Add Sub.
+
+Comparison Operator (Relational) (Boolean Values) 
+-------------------
+== --> Equal.
+< ---> lesser than
+> --> Greater than
+<= --> lesser than or equal to
+>= --> greater than or equal to
+
+Logical Operators 
+------------------(operates with boolean values) (boolean)
+
+AND --> and --> performs AND operation with two boolean values.
+OR  --> or  --> performs OR operation with two boolean values.
+
+bool1   bool2   AND     OR   
+True    True    True    True
+False   True    False   True
+True    False   False   True
+False   False   False   False
+
+NOT --> not --> operates with only one bool. revert.
+
+
+Assignment Operator 
+-------------------
+= --> equals
++= --> add and assign.
+-= --> sub assign.
+*= --> mul and assign
+/= --> div and assign
+//= --> floor div and assign
+%= --> mod and assign
+**= --> expo and assign
+
+Bitwise Operator  (bits)
+-----------------
+AND --> & --> AND operation between bits.
+OR  --> | --> Or operation between bits.
+NOT --> ~ --> NOT operation between bits. ~n=-(n+1)
+Right shift --> >> --> move the bits towards right for specified positions. 10>>2
+Left shift --> << --> move the bits towards left for specified positions. 10<<2
