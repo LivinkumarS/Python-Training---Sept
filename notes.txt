@@ -127,3 +127,43 @@ OR  --> | --> Or operation between bits.
 NOT --> ~ --> NOT operation between bits. ~n=-(n+1)
 Right shift --> >> --> move the bits towards right for specified positions. 10>>2
 Left shift --> << --> move the bits towards left for specified positions. 10<<2
+
+
+Control Flow
+--------------
+>> It executes a block of code based on a condition.
+
+if:
+----
+if condition:
+    block of code 
+>> if the condition is True---> block of code will get executed.
+
+elif:
+------
+elif condition:
+    block of code
+>> if the condition is True---> block of code will get executed.
+>> the condition will be evaluated only if the above conditions failed.
+
+else:
+    block of code 
+
+>> if the condition provided in if block is False---> else  block will get executed.
+
+mark=int 
+
+90<mark --> O.
+80-89--> A
+70-79--> B
+60-69--> C
+50-59--> D
+mark<50--> Fail
+
+Nested If 
+----------
+>> if block inside another if block.
+
+if condition:
+    if condition:
+        block of code
