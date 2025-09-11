@@ -167,3 +167,47 @@ Nested If
 if condition:
     if condition:
         block of code
+
+
+
+Iterable Object 
+-------------------
+Ex: String....
+a="Hello World!"
+a[0] = char that presents at 0th index.
+
+
+
+Loops
+------
+>> Repeating a block of code until a condition is met.
+>> It avoids repetition of code.
+
+While:
+-------
+
+>> As long as the condition is True, it keeps executing the code.
+>> Each execution is called iteration.
+
+Infinite loop is an error.
+
+while condition:
+    #block of code
+
+For:
+-----
+Iterate over different sequences(an iterable object)
+
+for var in Sequence:
+    Block of code
+
+range ---> in built method ---> used to create a temp iteratable object for given range.
+
+range(5)---> [0,1,2,3,4].
+range(start,end)---> [20-100] ---> range(20,101)-->[20,21,22..101]
+range(start, end, step) ---> range(2,20,3)-->[2,5,8,11,14,17]
+
+Control Statements:
+--------------------
+break ---> this is used to break the loop
+continue ---> this is used to skip the current iteration.
