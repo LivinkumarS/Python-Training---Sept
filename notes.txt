@@ -211,3 +211,66 @@ Control Statements:
 --------------------
 break ---> this is used to break the loop
 continue ---> this is used to skip the current iteration.
+
+Data structures 
+----------------
+>> To store and organize multiple values efficiently.
+
+Slicing and indexing (List, Strings)
+------------------------------------
+indexing ---> accessing an element using its index number.
+var[index]. 
+>>index number starts with '0'
+>>negative indexing is also there.. [-1]--> last index, -2--> second last.
+
+slicing ---> extracting a part of data
+var[start:]--->  specified index to last index
+var[:end] ---> 0th index to specified index. ending index will be ignored.
+var[start:end]
+
+List:
+------
+>> To create a list --> [val1, val2, val3...]
+>> Ordered, Mutable, duplicates are allowed in list.
+
+Ordered---> Each and every elements will have a fixed seq number (index number).
+Mutable--> values can be re-assigned.
+
+In built methods
+----------------
+.append(val) ---> used to add a new element at the end.
+.insert(pos, val) ---> used to add an element at specified index.
+.remove(val) ---> used to remove a particular value from a list.(always the first occur)
+.pop() --> it will remove the last element
+.pop(3) --> it will remove the last element
+
+.sort() ---> ascending arrangement
+.reverse() --->reversing the elements positions  in a list
+
+.count(ele)---> count the number of occur
+.index(ele) ---> index of specified element.
+
+Tuple
+------
+ordered, immutable
+>> ()--> to initiate a tuple
+>> it allows duplicates
+
+packing/unpacking
+------------------
+a=('livin',22,'fed')
+name,age,role=a
+
+Set 
+----
+>> unordered, duplicates are not allowed.
+>> {val1,val2.....}
+
+in built methods:
+-------------------
+.union()---> union values of two different sets
+.intersection
+.difference
+
+Dict 
+-----
