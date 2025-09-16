@@ -65,6 +65,9 @@ Type casting
 int() ---> anything into int
 str() ---> anything into str
 float() ---> anything into float
+list() ---> anything into list 
+tuple() ---> tuple 
+set() ---> into set
 
 
 Operators
@@ -232,6 +235,7 @@ List:
 ------
 >> To create a list --> [val1, val2, val3...]
 >> Ordered, Mutable, duplicates are allowed in list.
+iteratable
 
 Ordered---> Each and every elements will have a fixed seq number (index number).
 Mutable--> values can be re-assigned.
@@ -252,7 +256,7 @@ In built methods
 
 Tuple
 ------
-ordered, immutable
+ordered, immutable, iteratable
 >> ()--> to initiate a tuple
 >> it allows duplicates
 
@@ -274,3 +278,26 @@ in built methods:
 
 Dict 
 -----
+>> A dictionary is a collection of key-value pair.
+
+>> {
+    key1:val1,
+    key2:val2,
+    .
+    .
+    .
+}
+>> mutable.
+
+in-built methods
+-------------------
+.keys() ---> list of keys inside a dict.
+.values() ---> list of values inside a dict.
+.items() ---> [(key1,val1),(key2,val2).....]
+
+.pop(key) ---> remove the key value pair
+.popitem() ---> removes last key value
+
+Looping through dict:
+---------------------
+for i in dict: # iterate through every keys 

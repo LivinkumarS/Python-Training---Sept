@@ -53,5 +53,37 @@ set1={2,2,3,4,5,6,7,7,8,5,45}
 set2={7,8,9,10,4,5,45,54}
 
 # print(set1.intersection(set2))
-print(set1.difference(set2))
+# print(set1.difference(set2))
 # print(set1.union(set2))
+
+
+# Dict
+
+dict1={
+    "name":"Vijay",
+    "age":54,
+    "isMarried":True,
+    1:"one"
+}
+
+for i in dict1:
+    print(i)
+    print(dict1[i])
+
+# dict1["age"]=51
+
+# print(dict1["isMarried"])
+# print(list(dict1.keys()))
+# print(list(dict1.values()))
+# print(list(dict1.items()))
+
+# dict1.pop(1)
+# dict1.popitem()
+
+# print(dict1)
+
+
+# a=(1,2,3,4,5,6,11,12,13,14,15,16)
+
+# for i in a:
+#     print(i)
