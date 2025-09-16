@@ -301,3 +301,40 @@ in-built methods
 Looping through dict:
 ---------------------
 for i in dict: # iterate through every keys 
+
+Function
+-----------
+>> A block of reusable code that performs a specific task.
+>> Avoid the code repetition.
+>> Makes program modular.
+
+Syntax:
+-------
+def functionName():
+    #block of code
+
+calling a function ---> functionName()
+
+Parameters and Arguments
+-------------------------
+P---> empty variables we create while initiating a function
+A---> Assigning values to the Parameters while calling that function.
+
+Types:
+------
+positional Arguement
+Keyword Arguement 
+Default Arguement.
+
+Return Keyword.
+-----------------
+>> to stop a function.
+>> to return a data from the function to the caller
+
+Scope
+------
+>> It defines where a variable is accessible in the code.
+
+Local scope --> created inside a function. can be accessible only within that function.
+
+Global Scope --> created globally. accessible anywhere.
