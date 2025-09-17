@@ -53,10 +53,37 @@ int --> whole numbers---> -1,-2,0,1,2,3,4
 float--> decimal numbers --> 1.23,4.556
 
 string---> sequence of chars --> '' or "" 
-+ --> str1 + str2 (concatination)
+multiline string---> ''' string '''
+Immutable.
+
 string-formatting
 -------------------
 f'' ---> f"  {var1}  {var2}...."
+
+String Operations 
+------------------
++ --> str1 + str2 (concatination).
+* ---> str * num (repetition)
+in, not in ---> substring operator string (membership)
+
+In built methods 
+----------------
+.upper()
+.lower()
+.title()
+
+.isdigit()
+.isalpha()
+.isalnum()
+
+.find(substring) ---> finds index. -1--> not found
+.count(substring) --> number of times the substring occur
+.replace(sub1, sub2)
+
+.strip() ---> remmove spaces at the begenning and ending.
+
+.split() ---> break string into a list
+.join()---> join the string in a list together.
 
 boolean---> True or False
 
@@ -221,6 +248,8 @@ Data structures
 
 Slicing and indexing (List, Strings)
 ------------------------------------
+len(obj)---> length of that object
+
 indexing ---> accessing an element using its index number.
 var[index]. 
 >>index number starts with '0'
@@ -338,3 +367,4 @@ Scope
 Local scope --> created inside a function. can be accessible only within that function.
 
 Global Scope --> created globally. accessible anywhere.
+
