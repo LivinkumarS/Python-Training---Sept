@@ -368,3 +368,16 @@ Local scope --> created inside a function. can be accessible only within that fu
 
 Global Scope --> created globally. accessible anywhere.
 
+
+Exception Handling 
+--------------------
+Exception: An event that occurs during program execution that distrupts the normal flow
+
+sytax:
+------
+try:
+    #block of code 
+except errorName:
+    #block of code
+finally:
+    #block of code
