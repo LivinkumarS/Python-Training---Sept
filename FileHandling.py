@@ -1,0 +1,40 @@
+# file = open('fileHandling.txt','r')
+
+# # print(file)
+
+# # content=file.read()
+# # content=file.readline()
+# content=file.readlines()
+# print(content[2])
+
+# file.close()
+
+# file = open('fileHandling.txt','w')
+
+# content='''
+# Born in Ranchi, Dhoni made his first class debut for Bihar in 1999. 
+# He made his debut for the Indian cricket team on 23 December 2004 in an ODI against Bangladesh and played his first test a year later against Sri Lanka. 
+# In 2007, he became the captain of the ODI side before taking over in all formats by 2008. 
+# Dhoni retired from test cricket in 2014 but continued playing in limited overs cricket till 2019. 
+# He has scored 17,266 runs in international cricket including 10,000 plus runs at an average of more than 50 in ODIs.
+# '''
+
+# file.write(content)
+
+# file.close()
+
+
+
+file = open('fileHandling.txt','a')
+
+content='''
+Born in Ranchi, Dhoni made his first class debut for Bihar in 1999. 
+He made his debut for the Indian cricket team on 23 December 2004 in an ODI against Bangladesh and played his first test a year later against Sri Lanka. 
+In 2007, he became the captain of the ODI side before taking over in all formats by 2008. 
+Dhoni retired from test cricket in 2014 but continued playing in limited overs cricket till 2019. 
+He has scored 17,266 runs in international cricket including 10,000 plus runs at an average of more than 50 in ODIs.
+'''
+
+file.write(content)
+
+file.close()

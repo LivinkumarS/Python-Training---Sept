@@ -381,3 +381,25 @@ except errorName:
     #block of code
 finally:
     #block of code
+
+File Handling 
+--------------
+>> Working with files using a pragramming language.
+>> read, write, update..  the external file.
+
+
+open---> in-built method to open a file. ex: open('file address','mode')
+
+.close()---> to close a file.
+
+to read the content ---> .read()
+to read the content line by line ---> readline(), readlines()
+
+to write content in a file ---> .write(content)
+
+
+Modes
+-------
+'r' ---> read
+'w'---> write
+'a'-----> append
